@@ -10,7 +10,7 @@ import { TodoItemComponent } from './components/todo-item/todo-item.component';
 import { TodoService } from './services/todo.service';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
+  imports:      [ BrowserModule, FormsModule, HttpClientModule ],
   declarations: [ AppComponent, HelloComponent, TodosComponent, TodoItemComponent ],
   bootstrap:    [ AppComponent ],
   providers: [TodoService]
