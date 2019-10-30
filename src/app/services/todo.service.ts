@@ -29,6 +29,9 @@ export class TodoService {
     ]; */
   }
 
+  // delete todo
+  
+
   // toggle completed todo
   toggleCompleted(todo: Todo): Observable<any> {
     const url = `${this.todosUrl}/${todo.id}`;
