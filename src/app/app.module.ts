@@ -8,10 +8,11 @@ import { HelloComponent } from './hello.component';
 import { TodosComponent } from './components/todos/todos.component';
 import { TodoItemComponent } from './components/todo-item/todo-item.component';
 import { TodoService } from './services/todo.service';
+import { AddTodoComponent } from './components/add-todo/add-todo.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, HttpClientModule ],
-  declarations: [ AppComponent, HelloComponent, TodosComponent, TodoItemComponent ],
+  declarations: [ AppComponent, HelloComponent, TodosComponent, TodoItemComponent, AddTodoComponent ],
   bootstrap:    [ AppComponent ],
   providers: [TodoService]
 })
