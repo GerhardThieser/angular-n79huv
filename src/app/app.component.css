@@ -2,3 +2,15 @@ p {
   font-family: Lato;
   color:midnightblue
 }
+
+.header {
+  background: #777;
+  color: #111;
+  text-align: center;
+  padding: 10px;
+}
+
+.header a {
+  color: #999;
+  text-decoration: none;
+}
