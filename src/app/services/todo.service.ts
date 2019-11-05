@@ -30,7 +30,10 @@ export class TodoService {
   }
 
   // delete todo
-  
+  deleteTodo(todo: Todo): Observable<Todo> {
+    const url = `${this.todosUrl}/${todo.id}`;
+    return this.http.delete<Todo>(url, httpOptions);
+  }
 
   // toggle completed todo
   toggleCompleted(todo: Todo): Observable<any> {
